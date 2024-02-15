@@ -8,7 +8,7 @@
 ; Extracts the first character of a string (and returns it)
 ; given: "hello world", expect: "h"
 ; given: "JavaScript," expect: "J"
-; (define (string-first s) (... s ...))
+; (define (string-first s) (... s ...)
 
 (define (string-first str)
   (string-ith str 0))
